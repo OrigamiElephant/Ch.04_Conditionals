@@ -18,3 +18,9 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+a=int(input(Number Here: ))
+if a/2=:int
+    test1=even
+if a/2=:float
+    test2=odd
+
