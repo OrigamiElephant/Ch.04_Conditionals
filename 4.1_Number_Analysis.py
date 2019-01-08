@@ -18,9 +18,19 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
-a=int(input(Number Here: ))
-if a/2=:int
-    test1=even
-if a/2=:float
-    test2=odd
-
+a=int(input("Number Here: " ))
+if a ==
+    test1 = "Even"
+if a ==
+    test1 = "Odd"
+if a/-a==-1
+    test2 = "Positive"
+if a/-a==1
+    test2 = "Negative"
+if a+100 > 200 or a-100 < -200
+    test3 = "Exclusive"
+if a+100 < 200 or a-100 > -200
+    test3 = "Inclusive"
+print("Test 1: "test1)
+print("Test 2: "test2)
+print("Test 3: "test3)
