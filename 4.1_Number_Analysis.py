@@ -18,16 +18,18 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
-a=int(input("Number Here: " ))
-if a/2 == int:
+a = int(input("Number Here: "))
+if a % 2 == 0:
     print("Test 1: Even")
-if a/2 == float:
+else:
     print("Test 1: Odd")
-if a/-a==-1:
+if a > 0:
     print("Test 2: Positive")
-if a/-a==1:
+elif a < 0:
     print("Test 2: Negative")
-if a+100 > 200 or a-100 < -200:
+elif a == 0:
+    print("Test 2: 0")
+if a > 100 or a < -100:
     print("Test 3: Exclusive")
-else if: a+100 < 200 or a-100 > 200
+else:
     print("Test 3: Inclusive")
