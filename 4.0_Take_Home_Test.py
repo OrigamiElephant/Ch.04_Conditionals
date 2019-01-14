@@ -11,8 +11,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Jedi, you will never be.")
 '''
-     
-     
+#The second ")" after "("Enter midichlorian count: ")
      
 '''
   2. This runs, but there is something wrong. What is it?
@@ -25,7 +24,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Incorrect.")
 '''
-
+#It prints the answers you choose from after the question is answered
 
 
 '''
@@ -41,19 +40,21 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("x is not positive.")
  '''
- 
- 
- 
- '''
+ # the value "x" was not set to being equal to 4. So the equation below couldn't work
+ # it has it so if x = 0 then it will be positive, but 0 is neither
+
+'''
   4. What three things are wrong with the following code?
      
      x = input("Enter a number: ")
      if x = 3
          print("You entered 3")
  '''
+ # 1. The input command doesn't have "int" anywhere, so it can't collect a number
+ # 2. The if needs a collon on the end
+ # 3. if x = 3, should instead be, if x == 3
  
- 
- '''
+'''
   5. There are four things wrong with this code. Identify all four issues. 
      
      answer = input("What is the name of Poe Dameron's Droid? ")
@@ -62,8 +63,10 @@ but I will definitely not ask another person except the instructor. Signed: ____
          else
          print("Incorrect! It is BB8.")
 '''
-
-
+# The answer to the question is set to "answer" when the if statement uses "a"
+# if statement should say (if a == "BB8":)
+# else does not need tobe indented
+# else needs a collon after it
 
 '''
   6. This program doesn't work correctly. What is wrong?
@@ -72,8 +75,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      if x == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
          print("That is correct!")
 '''
-
-
+# It prints "That is correct" no matter what you type
 
 '''
   7. Look at the code below. Write your best guess here on what it will print.
@@ -91,9 +93,8 @@ but I will definitely not ask another person except the instructor. Signed: ____
      if z:
          print("Star Wars Episodes 4,5,6 are the best!")
 '''
-
-
-
+# Guess: it will print: Star Wars Episodes 4,5,6 are the best!
+# Answer: it printed: Star Wars Episodes 4,5,6 are the best!
 
 '''
  8. Look at the code below. Write you best guess on what it will print.
@@ -102,37 +103,43 @@ but I will definitely not ask another person except the instructor. Signed: ____
      x = 5
      y = 10
      z = 10
-     print(x < y)
-     print(y < z)
-     print(x == 5)
-     print(not x == 5)
-     print(x != 5)
-     print(not x != 5)
-     print(x == "5")
-     print(5 == x + 0.00000000001)
-     print(x == 5 and y == 10)
-     print(x == 5 and y == 5)
-     print(x == 5 or y == 5)
+     print(x < y) true
+     print(y < z) false
+     print(x == 5) true
+     print(not x == 5) false
+     print(x != 5) true (Incorrect)
+     print(not x != 5) false (Incorrect)
+     print(x == "5") false
+     print(5 == x + 0.00000000001) false
+     print(x == 5 and y == 10) true
+     print(x == 5 and y == 5) false
+     print(x == 5 or y == 5) false (Incorrect)
 '''
-
 
 
 '''
  9. Look at the code below. Write you best guess on what it will print.
      Next, run the code and see if you are correct. (HINT: when comparing strings, ASCII codes are used. https://www.ascii-code.com/)
-     
-     print("3" == "3")
-     print(" 3" == "3")
-     print(3 < 4)
-     print("3" < "4")
-     print("3" < 4)
-     print("<" < ">")
-     print((2 == 2) == "True")
-     print((2 == 2) == True)
-     print("?"<"!")
+  
+     print("3" == "3") true
+     print(" 3" == "3") false
+     print(3 < 4) true
+     print("3" < "4") false
+     print("3" < 4) false
+     print("<" < ">") false
+     print((2 == 2) == "True") false
+     print((2 == 2) == True) true
+     print("?"<"!") false
 '''
-
-
+print("3" == "3")
+print(" 3" == "3")
+print(3 < 4)
+print("3" < "4")
+print("3" < 4)
+print("<" < ">")
+print((2 == 2) == "True")
+print((2 == 2) == True)
+print("?"<"!")
 
 '''
  10. What things are wrong with this section of code?
