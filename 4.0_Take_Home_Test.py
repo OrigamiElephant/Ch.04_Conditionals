@@ -124,22 +124,14 @@ but I will definitely not ask another person except the instructor. Signed: ____
      print("3" == "3") true
      print(" 3" == "3") false
      print(3 < 4) true
-     print("3" < "4") false
+     print("3" < "4") false (Incorrect)
      print("3" < 4) false
-     print("<" < ">") false
+     print("<" < ">") false (Incorrect)
      print((2 == 2) == "True") false
      print((2 == 2) == True) true
      print("?"<"!") false
 '''
-print("3" == "3")
-print(" 3" == "3")
-print(3 < 4)
-print("3" < "4")
-print("3" < 4)
-print("<" < ">")
-print((2 == 2) == "True")
-print((2 == 2) == True)
-print("?"<"!")
+
 
 '''
  10. What things are wrong with this section of code?
@@ -160,4 +152,6 @@ print("?"<"!")
      else if user_input = C:
          money = 0
 '''
-
+# The equal signs in the if statements need to be doubled (==)
+# The letters A,B, and C need quotation marks around them too make the program work
+# The statement "else if" needs to be shortened to "elif"
