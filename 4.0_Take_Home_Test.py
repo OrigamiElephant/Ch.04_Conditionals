@@ -11,7 +11,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Jedi, you will never be.")
 '''
-#The second ")" after "("Enter midichlorian count: ")
+# The second ")" after "("Enter midichlorian count: ")
      
 '''
   2. This runs, but there is something wrong. What is it?
@@ -24,7 +24,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Incorrect.")
 '''
-#It prints the answers you choose from after the question is answered
+# It prints the answers you choose from after the question is answered
 
 
 '''
@@ -40,9 +40,8 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("x is not positive.")
  '''
- # the value "x" was not set to being equal to 4. So the equation below couldn't work
- # it has it so if x = 0 then it will be positive, but 0 is neither
-
+ # The value "x" was not set to being equal to 4. So the equation below couldn't work
+ # It has it so if x = 0 then it will be positive, but 0 is neither
 '''
   4. What three things are wrong with the following code?
      
