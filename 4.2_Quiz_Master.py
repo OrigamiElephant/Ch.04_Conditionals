@@ -55,7 +55,7 @@ else:
     print("incorrect. Answer is: D")
     q = q + 1
 print()
-e = input("5.f Kiddo were to Kill Bill 30 times over and cut off all his limbs, how many more limbs would she have than Bills?")
+e = input("5.If Kiddo were to Kill Bill 30 times over and cut off all his limbs, how many more limbs would she have than Bills?")
 if e == "90":
     print("Correct")
     score = score + 1
@@ -68,7 +68,7 @@ else:
     q = q +1
 print()
 f = input("Bonus Question: What was the technique Kiddo used to finally Kill Bill?")
-if f == "five-point-palm exploding heart technique":
+if f == "five point palm exploding heart technique":
     print("Correct")
     score = score + 1
 else:
