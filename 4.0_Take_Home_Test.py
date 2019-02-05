@@ -74,7 +74,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      if x == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
          print("That is correct!")
 '''
-# It prints "That is correct" no matter what you type
+# It prints "That is correct" no matter what you type ((BUT WHY? - FIX IT)
 
 '''
   7. Look at the code below. Write your best guess here on what it will print.
@@ -145,12 +145,14 @@ but I will definitely not ask another person except the instructor. Signed: ____
      user_input = input("Choose a character?")
 
      if user_input = A:
-         money = 1000
+         sensitivity = 1000
      else if user_input = B:
-         money = 900
+         sensitivity = 900
      else if user_input = C:
-         money = 0
+         sensitivity = 0
 '''
 # The equal signs in the if statements need to be doubled (==)
 # The letters A,B, and C need quotation marks around them too make the program work
 # The statement "else if" needs to be shortened to "elif"
+
+# (What if they type in a lowercase a? How will that work?)
